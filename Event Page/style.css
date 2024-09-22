@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: url('./images/ai-generated-8582669_1280.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#schedule {
+    background-color: #e9f7ef;
+    border-left: 5px solid #28a745;
+    margin-left: 10px;
+}
+
+.schedule-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-item time {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#speakers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #f0f8ff;
+    border-left: 5px solid #007BFF;
+    margin-left: 10px;
+}
+
+.speaker {
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.speaker img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #007BFF;
+    width: 150px; 
+    height: 150px; 
+}
+
+.speaker h3 {
+    color: #007BFF;
+}
+
+#registration {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    margin-left: 10px;
+}
+
+#registration form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#registration label {
+    font-weight: bold;
+    color: #333;
+}
+
+#registration input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#registration button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
